@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428E1FF423EC6418007BBE78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428E1FF323EC6418007BBE78 /* AppDelegate.swift */; };
+		428E1FF623EC6418007BBE78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428E1FF523EC6418007BBE78 /* SceneDelegate.swift */; };
+		428E1FF823EC6418007BBE78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428E1FF723EC6418007BBE78 /* ViewController.swift */; };
+		428E1FFB23EC6418007BBE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428E1FF923EC6418007BBE78 /* Main.storyboard */; };
+		428E1FFD23EC641C007BBE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428E1FFC23EC641C007BBE78 /* Assets.xcassets */; };
+		428E200023EC641C007BBE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428E1FFE23EC641C007BBE78 /* LaunchScreen.storyboard */; };
+		428E200B23EC641C007BBE78 /* FacebookLogin2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428E200A23EC641C007BBE78 /* FacebookLogin2Tests.swift */; };
+		98A001F450F2F81B0523B3A3 /* Pods_FacebookLogin2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1266EB1F7236BDD4F43C2192 /* Pods_FacebookLogin2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428E200723EC641C007BBE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428E1FE823EC6418007BBE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 428E1FEF23EC6418007BBE78;
+			remoteInfo = FacebookLogin2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1266EB1F7236BDD4F43C2192 /* Pods_FacebookLogin2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookLogin2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19617B89F97FFB0D0526FF6E /* Pods-FacebookLogin2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookLogin2.release.xcconfig"; path = "Target Support Files/Pods-FacebookLogin2/Pods-FacebookLogin2.release.xcconfig"; sourceTree = "<group>"; };
+		428E1FF023EC6418007BBE78 /* FacebookLogin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLogin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428E1FF323EC6418007BBE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428E1FF523EC6418007BBE78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		428E1FF723EC6418007BBE78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428E1FFA23EC6418007BBE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428E1FFC23EC641C007BBE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		428E1FFF23EC641C007BBE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		428E200123EC641C007BBE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428E200623EC641C007BBE78 /* FacebookLogin2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLogin2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428E200A23EC641C007BBE78 /* FacebookLogin2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLogin2Tests.swift; sourceTree = "<group>"; };
+		428E200C23EC641C007BBE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80520CFB303200B64E302614 /* Pods-FacebookLogin2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookLogin2.debug.xcconfig"; path = "Target Support Files/Pods-FacebookLogin2/Pods-FacebookLogin2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428E1FED23EC6418007BBE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A001F450F2F81B0523B3A3 /* Pods_FacebookLogin2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428E200323EC641C007BBE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428E1FE723EC6418007BBE78 = {
+			isa = PBXGroup;
+			children = (
+				428E1FF223EC6418007BBE78 /* FacebookLogin2 */,
+				428E200923EC641C007BBE78 /* FacebookLogin2Tests */,
+				428E1FF123EC6418007BBE78 /* Products */,
+				C4CFE53B3EF1060CF463F572 /* Pods */,
+				F1DE1EB2D52685748B2ACC19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		428E1FF123EC6418007BBE78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428E1FF023EC6418007BBE78 /* FacebookLogin2.app */,
+				428E200623EC641C007BBE78 /* FacebookLogin2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428E1FF223EC6418007BBE78 /* FacebookLogin2 */ = {
+			isa = PBXGroup;
+			children = (
+				428E1FF323EC6418007BBE78 /* AppDelegate.swift */,
+				428E1FF523EC6418007BBE78 /* SceneDelegate.swift */,
+				428E1FF723EC6418007BBE78 /* ViewController.swift */,
+				428E1FF923EC6418007BBE78 /* Main.storyboard */,
+				428E1FFC23EC641C007BBE78 /* Assets.xcassets */,
+				428E1FFE23EC641C007BBE78 /* LaunchScreen.storyboard */,
+				428E200123EC641C007BBE78 /* Info.plist */,
+			);
+			path = FacebookLogin2;
+			sourceTree = "<group>";
+		};
+		428E200923EC641C007BBE78 /* FacebookLogin2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				428E200A23EC641C007BBE78 /* FacebookLogin2Tests.swift */,
+				428E200C23EC641C007BBE78 /* Info.plist */,
+			);
+			path = FacebookLogin2Tests;
+			sourceTree = "<group>";
+		};
+		C4CFE53B3EF1060CF463F572 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80520CFB303200B64E302614 /* Pods-FacebookLogin2.debug.xcconfig */,
+				19617B89F97FFB0D0526FF6E /* Pods-FacebookLogin2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1DE1EB2D52685748B2ACC19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1266EB1F7236BDD4F43C2192 /* Pods_FacebookLogin2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428E1FEF23EC6418007BBE78 /* FacebookLogin2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428E200F23EC641C007BBE78 /* Build configuration list for PBXNativeTarget "FacebookLogin2" */;
+			buildPhases = (
+				B3358D52372B97C4C6EF5879 /* [CP] Check Pods Manifest.lock */,
+				428E1FEC23EC6418007BBE78 /* Sources */,
+				428E1FED23EC6418007BBE78 /* Frameworks */,
+				428E1FEE23EC6418007BBE78 /* Resources */,
+				0A9B3C8B564CE27CF3D25FA6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookLogin2;
+			productName = FacebookLogin2;
+			productReference = 428E1FF023EC6418007BBE78 /* FacebookLogin2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428E200523EC641C007BBE78 /* FacebookLogin2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428E201223EC641C007BBE78 /* Build configuration list for PBXNativeTarget "FacebookLogin2Tests" */;
+			buildPhases = (
+				428E200223EC641C007BBE78 /* Sources */,
+				428E200323EC641C007BBE78 /* Frameworks */,
+				428E200423EC641C007BBE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428E200823EC641C007BBE78 /* PBXTargetDependency */,
+			);
+			name = FacebookLogin2Tests;
+			productName = FacebookLogin2Tests;
+			productReference = 428E200623EC641C007BBE78 /* FacebookLogin2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428E1FE823EC6418007BBE78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lorena Mrsic";
+				TargetAttributes = {
+					428E1FEF23EC6418007BBE78 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					428E200523EC641C007BBE78 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 428E1FEF23EC6418007BBE78;
+					};
+				};
+			};
+			buildConfigurationList = 428E1FEB23EC6418007BBE78 /* Build configuration list for PBXProject "FacebookLogin2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428E1FE723EC6418007BBE78;
+			productRefGroup = 428E1FF123EC6418007BBE78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428E1FEF23EC6418007BBE78 /* FacebookLogin2 */,
+				428E200523EC641C007BBE78 /* FacebookLogin2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428E1FEE23EC6418007BBE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428E200023EC641C007BBE78 /* LaunchScreen.storyboard in Resources */,
+				428E1FFD23EC641C007BBE78 /* Assets.xcassets in Resources */,
+				428E1FFB23EC6418007BBE78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428E200423EC641C007BBE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A9B3C8B564CE27CF3D25FA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookLogin2/Pods-FacebookLogin2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FacebookLogin2/Pods-FacebookLogin2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FacebookLogin2/Pods-FacebookLogin2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3358D52372B97C4C6EF5879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FacebookLogin2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428E1FEC23EC6418007BBE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428E1FF823EC6418007BBE78 /* ViewController.swift in Sources */,
+				428E1FF423EC6418007BBE78 /* AppDelegate.swift in Sources */,
+				428E1FF623EC6418007BBE78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428E200223EC641C007BBE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428E200B23EC641C007BBE78 /* FacebookLogin2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428E200823EC641C007BBE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 428E1FEF23EC6418007BBE78 /* FacebookLogin2 */;
+			targetProxy = 428E200723EC641C007BBE78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428E1FF923EC6418007BBE78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428E1FFA23EC6418007BBE78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428E1FFE23EC641C007BBE78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428E1FFF23EC641C007BBE78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428E200D23EC641C007BBE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428E200E23EC641C007BBE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428E201023EC641C007BBE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80520CFB303200B64E302614 /* Pods-FacebookLogin2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookLogin2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FacebookCore\"",
+					"-framework",
+					"\"FacebookLogin\"",
+					"-weak_framework",
+					"\"Accelerate\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsic.FacebookLogin2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		428E201123EC641C007BBE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19617B89F97FFB0D0526FF6E /* Pods-FacebookLogin2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookLogin2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FacebookCore\"",
+					"-framework",
+					"\"FacebookLogin\"",
+					"-weak_framework",
+					"\"Accelerate\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsic.FacebookLogin2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		428E201323EC641C007BBE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookLogin2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsic.FacebookLogin2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookLogin2.app/FacebookLogin2";
+			};
+			name = Debug;
+		};
+		428E201423EC641C007BBE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FacebookLogin2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsic.FacebookLogin2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookLogin2.app/FacebookLogin2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428E1FEB23EC6418007BBE78 /* Build configuration list for PBXProject "FacebookLogin2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428E200D23EC641C007BBE78 /* Debug */,
+				428E200E23EC641C007BBE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428E200F23EC641C007BBE78 /* Build configuration list for PBXNativeTarget "FacebookLogin2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428E201023EC641C007BBE78 /* Debug */,
+				428E201123EC641C007BBE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428E201223EC641C007BBE78 /* Build configuration list for PBXNativeTarget "FacebookLogin2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428E201323EC641C007BBE78 /* Debug */,
+				428E201423EC641C007BBE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428E1FE823EC6418007BBE78 /* Project object */;
+}
